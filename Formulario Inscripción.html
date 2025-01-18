@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontes Infinitos | Reserva tu viaje</title>
+    <link rel="stylesheet" href="style/estilos form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="imagenes/5219574.png"/>
+</head>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="imagenes/5219574.png" >
+      <h1>Horizontes Infinitos</h1>
+    </div>
+    <ul>
+      <li><a href="Index.html">Inicio</a></li>
+      <li><a href="Formulario Inscripción.html">Reserva tu viaje</a></li>
+      <li><a href="Sobre nosotros.html">Sobre nosotros</a></li>
+    </ul>
+  </nav>
+
+  </header>
+
+<body>
+    <form>
+        <h2>Reserva ahora tu viaje</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+        
+        <label for="nombre">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" id="correo" name="correo" placeholder="email@email.com" required>
+        
+        <label for="destino">Destino</label>
+        <select id="destino" name="destino">
+          <option value="paris">Nueva York</option>
+          <option value="roma">Roma</option>
+          <option value="tokio">Japón</option>
+        </select>
+        
+        <label for="fecha">Fecha de salida</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="fecha">Fecha de vuelta</label>
+        <input type="date" id="fechav" name="fechav" required>
+
+        
+        <label for="adultos">Número de adultos</label>
+        <input type="number" id="adultos" name="adultos" min="1" max="10" required>
+        
+        <label for="ninos">Número de niños</label>
+        <input type="number" id="ninos" name="ninos" min="0" max="10" required>
+        
+        <label for="comentarios">Comentarios adicionales</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+        
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+</body>
+<footer>
+    <div class="logo">
+        <img src="imagenes/5219574.png" alt="Logo">
+        <h2>Horizontes Infinitos</h2>
+    </div>
+    <div class="contacto">
+      <h3>Contacto</h3>
+      <p>Teléfono: +34 123456789</p>
+      <p>Correo electrónico: info@horizontesinfinitos.com</p>
+      <p>Dirección: C/Oretania n1, Linares</p>
+    </div>
+    <div class="redes-sociales">
+      <h3>Síguenos en</h3>
+      <ul>
+        <li> <a href="https://www.instagram.com/"><img src="imagenes/insta.png"> </a></li>
+        <li> <a href="https://es-es.facebook.com/"><img src="imagenes/fb.png"> </a></li>
+        <li> <a href="https://twitter.com/?lang=es"><img src="imagenes/twitter.png"> </a></li>
+        <li> <a href="https://www.youtube.com/"><img src="imagenes/yt.png"> </a></li>
+
+      </ul>
+  </footer>
+  
+</html>
